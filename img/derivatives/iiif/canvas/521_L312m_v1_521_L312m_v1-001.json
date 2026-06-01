@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/521_L312m_v1_521_L312m_v1-001.json",
+  "label": "Page 1",
+  "width": 11742,
+  "height": 7505,
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/521_L312m_v1_521_L312m_v1-001/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/521_L312m_v1_521_L312m_v1-001.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/521_L312m_v1_521_L312m_v1-001/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/521_L312m_v1_521_L312m_v1-001",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 11742,
+        "height": 7505
+      },
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/521_L312m_v1_521_L312m_v1-001.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,50 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/graphics_4572_OBJ/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "graphics_4572_OBJ",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/graphics_4572_OBJ/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/graphics_4572_OBJ.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/graphics_4572_OBJ.json",
+          "label": "front",
+          "width": 1995,
+          "height": 2595,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/graphics_4572_OBJ/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/graphics_4572_OBJ.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/graphics_4572_OBJ/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/graphics_4572_OBJ",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1995,
+                "height": 2595
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/graphics_4572_OBJ.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/graphics_4572_OBJ/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/graphics_4572_OBJ/full/1140,/0/default.jpg"
+}

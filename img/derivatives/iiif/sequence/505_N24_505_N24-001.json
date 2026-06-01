@@ -1,0 +1,66 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/505_N24_505_N24-001.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/505_N24_505_N24-001.json",
+      "label": "Page 1",
+      "width": 10163,
+      "height": 6738,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-001/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/505_N24_505_N24-001.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-001/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-001",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 10163,
+            "height": 6738
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/505_N24_505_N24-001.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/505_N24_505_N24-002.json",
+      "label": "Page 2",
+      "width": 10163,
+      "height": 6738,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-002/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/505_N24_505_N24-002.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-002/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-002",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 10163,
+            "height": 6738
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/505_N24_505_N24-002.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,71 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/objects.json",
+  "@type": "sc:Collection",
+  "label": "objects",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/050_G28_v38-001/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "050_G28_v38-001"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/505_N24/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "505_N24"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/506_73_Am4t_v4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "506_73_Am4t_v4"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/514_P35E/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "514_P35E"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/521_L312m_v1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "521_L312m_v1"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/531_G35w/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "531_G35w"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Mss_Ms_Coll_19_oppenheimer-001/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Mss_Ms_Coll_19_oppenheimer-001"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/VGN_527_B679n/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "VGN_527_B679n"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/graphics_3086_OBJ/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "graphics_3086_OBJ"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/graphics_4572_OBJ/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "graphics_4572_OBJ"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/graphics_4606_OBJ/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "graphics_4606_OBJ"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/graphics_4634_OBJ/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "graphics_4634_OBJ"
+    }
+  ]
+}
