@@ -1,0 +1,45 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-080",
+  "protocol": "http://iiif.io/api/image",
+  "width": 4381,
+  "height": 3423,
+  "sizes": [
+    {
+      "width": 4381,
+      "height": 3423
+    },
+    {
+      "width": 250,
+      "height": 195
+    },
+    {
+      "width": 1140,
+      "height": 891
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

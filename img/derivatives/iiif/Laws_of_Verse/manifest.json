@@ -1,0 +1,2374 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Laws_of_Verse/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Laws_of_Verse",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-001/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/Laws_of_Verse_Laws_of_Verse-001.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-001.json",
+          "label": "Page 1",
+          "width": 2380,
+          "height": 3453,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-001/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-001.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-001/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-001",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2380,
+                "height": 3453
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-001.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-002.json",
+          "label": "Page 2",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-002/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-002.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-002/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-002",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-002.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-003.json",
+          "label": "Page 3",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-003/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-003.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-003/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-003",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-003.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-004.json",
+          "label": "Page 4",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-004/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-004.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-004/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-004",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-004.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-005.json",
+          "label": "Page 5",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-005/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-005.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-005/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-005",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-005.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-006.json",
+          "label": "Page 6",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-006/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-006.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-006/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-006",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-006.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-007.json",
+          "label": "Page 7",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-007/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-007.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-007/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-007",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-007.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-008.json",
+          "label": "Page 8",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-008/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-008.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-008/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-008",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-008.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-009.json",
+          "label": "Page 9",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-009/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-009.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-009/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-009",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-009.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-010.json",
+          "label": "Page 10",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-010/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-010.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-010/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-010",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-010.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-011.json",
+          "label": "Page 11",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-011/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-011.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-011/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-011",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-011.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-012.json",
+          "label": "Page 12",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-012/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-012.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-012/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-012",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-012.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-013.json",
+          "label": "Page 13",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-013/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-013.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-013/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-013",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-013.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-014.json",
+          "label": "Page 14",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-014/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-014.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-014/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-014",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-014.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-015.json",
+          "label": "Page 15",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-015/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-015.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-015/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-015",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-015.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-016.json",
+          "label": "Page 16",
+          "width": 4174,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-016/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-016.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-016/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-016",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4174,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-016.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-017.json",
+          "label": "Page 17",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-017/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-017.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-017/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-017",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-017.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-018.json",
+          "label": "Page 18",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-018/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-018.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-018/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-018",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-018.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-019.json",
+          "label": "Page 19",
+          "width": 4369,
+          "height": 3425,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-019/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-019.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-019/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-019",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4369,
+                "height": 3425
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-019.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-020.json",
+          "label": "Page 20",
+          "width": 4369,
+          "height": 3425,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-020/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-020.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-020/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-020",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4369,
+                "height": 3425
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-020.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-021.json",
+          "label": "Page 21",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-021/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-021.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-021/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-021",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-021.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-022.json",
+          "label": "Page 22",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-022/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-022.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-022/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-022",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-022.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-023.json",
+          "label": "Page 23",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-023/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-023.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-023/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-023",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-023.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-024.json",
+          "label": "Page 24",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-024/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-024.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-024/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-024",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-024.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-025.json",
+          "label": "Page 25",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-025/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-025.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-025/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-025",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-025.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-026.json",
+          "label": "Page 26",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-026/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-026.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-026/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-026",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-026.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-027.json",
+          "label": "Page 27",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-027/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-027.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-027/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-027",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-027.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-028.json",
+          "label": "Page 28",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-028/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-028.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-028/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-028",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-028.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-029.json",
+          "label": "Page 29",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-029/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-029.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-029/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-029",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-029.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-030.json",
+          "label": "Page 30",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-030/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-030.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-030/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-030",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-030.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-031.json",
+          "label": "Page 31",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-031/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-031.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-031/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-031",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-031.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-032.json",
+          "label": "Page 32",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-032/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-032.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-032/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-032",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-032.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-033.json",
+          "label": "Page 33",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-033/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-033.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-033/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-033",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-033.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-034.json",
+          "label": "Page 34",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-034/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-034.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-034/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-034",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-034.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-035.json",
+          "label": "Page 35",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-035/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-035.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-035/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-035",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-035.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-036.json",
+          "label": "Page 36",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-036/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-036.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-036/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-036",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-036.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-037.json",
+          "label": "Page 37",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-037/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-037.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-037/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-037",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-037.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-038.json",
+          "label": "Page 38",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-038/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-038.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-038/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-038",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-038.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-039.json",
+          "label": "Page 39",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-039/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-039.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-039/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-039",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-039.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-040.json",
+          "label": "Page 40",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-040/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-040.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-040/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-040",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-040.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-041.json",
+          "label": "Page 41",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-041/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-041.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-041/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-041",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-041.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-042.json",
+          "label": "Page 42",
+          "width": 4213,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-042/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-042.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-042/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-042",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4213,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-042.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-043.json",
+          "label": "Page 43",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-043/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-043.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-043/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-043",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-043.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-044.json",
+          "label": "Page 44",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-044/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-044.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-044/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-044",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-044.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-045.json",
+          "label": "Page 45",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-045/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-045.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-045/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-045",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-045.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-046.json",
+          "label": "Page 46",
+          "width": 4361,
+          "height": 3417,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-046/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-046.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-046/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-046",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4361,
+                "height": 3417
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-046.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-047.json",
+          "label": "Page 47",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-047/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-047.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-047/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-047",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-047.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-048.json",
+          "label": "Page 48",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-048/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-048.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-048/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-048",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-048.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-049.json",
+          "label": "Page 49",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-049/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-049.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-049/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-049",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-049.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-050.json",
+          "label": "Page 50",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-050/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-050.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-050/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-050",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-050.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-051.json",
+          "label": "Page 51",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-051/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-051.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-051/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-051",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-051.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-052.json",
+          "label": "Page 52",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-052/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-052.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-052/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-052",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-052.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-053.json",
+          "label": "Page 53",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-053/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-053.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-053/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-053",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-053.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-054.json",
+          "label": "Page 54",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-054/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-054.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-054/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-054",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-054.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-055.json",
+          "label": "Page 55",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-055/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-055.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-055/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-055",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-055.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-056.json",
+          "label": "Page 56",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-056/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-056.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-056/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-056",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-056.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-057.json",
+          "label": "Page 57",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-057/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-057.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-057/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-057",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-057.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-058.json",
+          "label": "Page 58",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-058/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-058.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-058/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-058",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-058.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-059.json",
+          "label": "Page 59",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-059/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-059.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-059/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-059",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-059.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-060.json",
+          "label": "Page 60",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-060/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-060.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-060/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-060",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-060.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-061.json",
+          "label": "Page 61",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-061/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-061.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-061/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-061",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-061.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-062.json",
+          "label": "Page 62",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-062/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-062.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-062/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-062",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-062.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-063.json",
+          "label": "Page 63",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-063/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-063.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-063/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-063",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-063.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-064.json",
+          "label": "Page 64",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-064/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-064.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-064/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-064",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-064.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-065.json",
+          "label": "Page 65",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-065/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-065.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-065/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-065",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-065.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-066.json",
+          "label": "Page 66",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-066/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-066.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-066/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-066",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-066.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-067.json",
+          "label": "Page 67",
+          "width": 4361,
+          "height": 3417,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-067/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-067.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-067/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-067",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4361,
+                "height": 3417
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-067.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-068.json",
+          "label": "Page 68",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-068/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-068.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-068/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-068",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-068.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-069.json",
+          "label": "Page 69",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-069/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-069.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-069/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-069",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-069.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-070.json",
+          "label": "Page 70",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-070/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-070.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-070/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-070",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-070.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-071.json",
+          "label": "Page 71",
+          "width": 4361,
+          "height": 3417,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-071/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-071.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-071/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-071",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4361,
+                "height": 3417
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-071.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-072.json",
+          "label": "Page 72",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-072/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-072.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-072/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-072",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-072.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-073.json",
+          "label": "Page 73",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-073/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-073.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-073/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-073",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-073.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-074.json",
+          "label": "Page 74",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-074/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-074.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-074/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-074",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-074.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-075.json",
+          "label": "Page 75",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-075/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-075.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-075/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-075",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-075.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-076.json",
+          "label": "Page 76",
+          "width": 4361,
+          "height": 3417,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-076/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-076.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-076/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-076",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4361,
+                "height": 3417
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-076.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-077.json",
+          "label": "Page 77",
+          "width": 4501,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-077/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-077.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-077/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-077",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4501,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-077.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-078.json",
+          "label": "Page 78",
+          "width": 4381,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-078/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-078.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-078/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-078",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4381,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-078.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-079.json",
+          "label": "Page 79",
+          "width": 4381,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-079/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-079.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-079/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-079",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4381,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-079.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-080.json",
+          "label": "Page 80",
+          "width": 4381,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-080/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-080.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-080/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-080",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4381,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-080.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-081.json",
+          "label": "Page 81",
+          "width": 4381,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-081/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-081.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-081/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-081",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4381,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-081.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-082.json",
+          "label": "Page 82",
+          "width": 2544,
+          "height": 3423,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-082/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-082.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-082/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-082",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2544,
+                "height": 3423
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-082.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-083.json",
+          "label": "Page 83",
+          "width": 2544,
+          "height": 1291,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-083/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-083.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-083/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-083",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2544,
+                "height": 1291
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-083.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-084.json",
+          "label": "Page 84",
+          "width": 2544,
+          "height": 1291,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-084/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/Laws_of_Verse_Laws_of_Verse-084.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-084/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-084",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2544,
+                "height": 1291
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/Laws_of_Verse_Laws_of_Verse-084.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-001/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Laws_of_Verse_Laws_of_Verse-001/full/1140,/0/default.jpg"
+}

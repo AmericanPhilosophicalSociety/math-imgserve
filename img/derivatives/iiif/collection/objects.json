@@ -66,6 +66,16 @@ layout: none
       "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/graphics_4634_OBJ/manifest.json",
       "@type": "sc:Manifest",
       "label": "graphics_4634_OBJ"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Laws_of_Verse/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Laws_of_Verse"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/Mss_B_F327_1930/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Mss_B_F327_1930"
     }
   ]
 }
