@@ -54,3 +54,8 @@ collections:
       source: 'objects.csv'
     images:
       source: 'source_images'
+  next:
+    metadata:
+      source: 'next.csv'
+    images:
+      source: 'source_images'
