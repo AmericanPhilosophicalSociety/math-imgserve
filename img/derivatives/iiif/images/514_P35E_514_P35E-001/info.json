@@ -4,42 +4,72 @@ layout: none
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/514_P35E_514_P35E-001",
-  "protocol": "http://iiif.io/api/image",
-  "width": 5985,
   "height": 4811,
-  "sizes": [
-    {
-      "width": 5985,
-      "height": 4811
-    },
-    {
-      "width": 250,
-      "height": 201
-    },
-    {
-      "width": 1140,
-      "height": 916
-    }
-  ],
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
-      "supports": [
-        "cors",
-        "sizeByWhListed",
-        "baseUriRedirect"
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
       ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 301,
+      "width": 374
+    },
+    {
+      "height": 150,
+      "width": 187
+    },
+    {
+      "height": 75,
+      "width": 94
+    },
+    {
+      "height": 38,
+      "width": 47
+    },
+    {
+      "height": 19,
+      "width": 23
+    },
+    {
+      "height": 9,
+      "width": 12
+    },
+    {
+      "height": 5,
+      "width": 6
+    },
+    {
+      "height": 2,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
     }
   ],
   "tiles": [
     {
-      "width": 512,
+      "height": 512,
       "scaleFactors": [
         1,
         2,
         4,
         8
-      ]
+      ],
+      "width": 512
     }
-  ]
+  ],
+  "width": 5985
 }
