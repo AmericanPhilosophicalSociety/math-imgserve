@@ -4,42 +4,69 @@ layout: none
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/505_N24_505_N24-001",
-  "protocol": "http://iiif.io/api/image",
-  "width": 10163,
   "height": 6738,
-  "sizes": [
-    {
-      "width": 10163,
-      "height": 6738
-    },
-    {
-      "width": 250,
-      "height": 166
-    },
-    {
-      "width": 1140,
-      "height": 756
-    }
-  ],
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
-      "supports": [
-        "cors",
-        "sizeByWhListed",
-        "baseUriRedirect"
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
       ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 211,
+      "width": 318
+    },
+    {
+      "height": 105,
+      "width": 159
+    },
+    {
+      "height": 53,
+      "width": 79
+    },
+    {
+      "height": 26,
+      "width": 40
+    },
+    {
+      "height": 13,
+      "width": 20
+    },
+    {
+      "height": 7,
+      "width": 10
+    },
+    {
+      "height": 3,
+      "width": 5
+    },
+    {
+      "height": 2,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
     }
   ],
   "tiles": [
     {
-      "width": 512,
+      "height": 512,
       "scaleFactors": [
         1,
         2,
         4,
-        8
-      ]
+        8,
+        16
+      ],
+      "width": 512
     }
-  ]
+  ],
+  "width": 10163
 }
