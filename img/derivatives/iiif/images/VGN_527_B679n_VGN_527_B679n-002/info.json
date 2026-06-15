@@ -4,42 +4,72 @@ layout: none
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/VGN_527_B679n_VGN_527_B679n-002",
-  "protocol": "http://iiif.io/api/image",
-  "width": 7134,
   "height": 5554,
-  "sizes": [
-    {
-      "width": 7134,
-      "height": 5554
-    },
-    {
-      "width": 250,
-      "height": 195
-    },
-    {
-      "width": 1140,
-      "height": 888
-    }
-  ],
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
-      "supports": [
-        "cors",
-        "sizeByWhListed",
-        "baseUriRedirect"
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
       ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 347,
+      "width": 446
+    },
+    {
+      "height": 174,
+      "width": 223
+    },
+    {
+      "height": 87,
+      "width": 111
+    },
+    {
+      "height": 43,
+      "width": 56
+    },
+    {
+      "height": 22,
+      "width": 28
+    },
+    {
+      "height": 11,
+      "width": 14
+    },
+    {
+      "height": 5,
+      "width": 7
+    },
+    {
+      "height": 3,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
     }
   ],
   "tiles": [
     {
-      "width": 512,
+      "height": 512,
       "scaleFactors": [
         1,
         2,
         4,
         8
-      ]
+      ],
+      "width": 512
     }
-  ]
+  ],
+  "width": 7134
 }
