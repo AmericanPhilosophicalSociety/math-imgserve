@@ -4,42 +4,72 @@ layout: none
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/Mss_Ms_Coll_19_oppenheimer-001",
-  "protocol": "http://iiif.io/api/image",
-  "width": 6021,
   "height": 4908,
-  "sizes": [
-    {
-      "width": 6021,
-      "height": 4908
-    },
-    {
-      "width": 250,
-      "height": 204
-    },
-    {
-      "width": 1140,
-      "height": 929
-    }
-  ],
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
-      "supports": [
-        "cors",
-        "sizeByWhListed",
-        "baseUriRedirect"
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
       ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 307,
+      "width": 376
+    },
+    {
+      "height": 153,
+      "width": 188
+    },
+    {
+      "height": 77,
+      "width": 94
+    },
+    {
+      "height": 38,
+      "width": 47
+    },
+    {
+      "height": 19,
+      "width": 24
+    },
+    {
+      "height": 10,
+      "width": 12
+    },
+    {
+      "height": 5,
+      "width": 6
+    },
+    {
+      "height": 2,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
     }
   ],
   "tiles": [
     {
-      "width": 512,
+      "height": 512,
       "scaleFactors": [
         1,
         2,
         4,
         8
-      ]
+      ],
+      "width": 512
     }
-  ]
+  ],
+  "width": 6021
 }
